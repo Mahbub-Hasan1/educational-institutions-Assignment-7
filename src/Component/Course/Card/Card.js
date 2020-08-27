@@ -6,7 +6,7 @@ const Card = (props) => {
 
     return (
         <div>
-            <div className="shadow p-3 mb-5 bg-white rounded card mb-3" style={{width:"60%", margin:'0 auto'}}>
+            <div className="shadow-sm p-3 mb-5 bg-white rounded card mb-3" style={{width:"80%", margin:'0 auto'}}>
                 <div className="row no-gutters">
                     <div className="col-md-4">
                     <img src={img} className="card-img" style={{width:"250px"}} alt="img"></img>

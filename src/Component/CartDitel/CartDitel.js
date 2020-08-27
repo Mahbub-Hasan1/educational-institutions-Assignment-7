@@ -16,7 +16,7 @@ const CartDitel = (props) => {
     }
     return (
         <div>
-            <div className="card text-center" style={{width:'60%', margin:'0 auto'}}>
+            <div className="card text-center" style={{width:'80%', margin:'0 auto'}}>
                         <div className="card-header">
                             <h3>Order Summary</h3>
                         </div>
@@ -24,7 +24,6 @@ const CartDitel = (props) => {
                             <h5 className="card-title font-weight-bold">Total Price: ${total + shipping}</h5>
                             <p className="card-text font-weight-bold">Items Ordered : {props.cartDitel.length}</p>
                             <p className="font-weight-bold">Shipping Cost:${shipping}</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
                         </div>
                         <div className="card-footer text-muted">
                             your Courses

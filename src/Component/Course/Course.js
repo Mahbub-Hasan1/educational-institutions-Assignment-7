@@ -15,13 +15,13 @@ const Course = () => {
     }
 
     return (
-        <div style={{marginTop:"5%", display: "flex"}}>
-            <div>
+        <div style={{marginTop:"7%", display: "flex"}}>
+            <div style={{width:'60%', borderRight:'5px solid black'}}>
                 {
                     Course.map(course => <Product key={course.id} handleClick={handleClick} product={course}> </Product>)
                 }
             </div>
-            <div style={{marginRight: '0px',width:'60%', margin:'0 auto'}}>
+            <div style={{marginRight: '0px',width:'45%', margin:'0 auto'}}>
                    
                 <CartDitel cartDitel={Cart}></CartDitel>)
 
